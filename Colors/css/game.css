@@ -1,0 +1,145 @@
+/*导航栏*/
+*{
+    margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;	
+    }
+body{
+	background-color: #E0D5C0;
+}
+.menu{
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #2A3663;
+	position: absolute;
+}
+#name{
+	height: 100%;
+	width: 275px;
+	padding: 10px 30px;
+	float: left;
+	color: #d9c5a8;
+	font-size: 700;
+	text-align: center;
+	text-shadow: 3px 2px 0 #c1402b;
+}
+a{
+	height: 50px;
+	width: 110px;
+	padding: 10px 90px;
+	color: #d9c5a8;
+	background-color: #2a3663;
+	text-decoration: none;
+	font-weight: 800;
+	font-size: large;
+	display: inline-block;
+	line-height: 50px;
+	text-align: center;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+}
+#menu{
+	height: 100%;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+}
+#menu li{
+	float: right;
+}
+#menu li ul{
+	display: none;
+	position: absolute;
+	float: none;
+}
+#menu li ul li{
+	float: none;
+}
+#menu li:hover ul{
+	display: block;
+}
+#system{
+	float: left;
+}
+a:hover{
+	background-color: #c1402b;
+}
+/*导图*/
+.bg img{
+	width: 100%;
+	height: 500px;
+}
+/*空行*/
+.blank{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
+/*内容*/
+/*拖拽*/
+.list{
+	width: 440px;
+	height: 500px;
+	background-color: beige;
+	float: left;
+	margin-left: 15%;
+}
+.color{
+	width: 440px;
+	height: 500px;
+	background-color: beige;
+	float: right;
+	margin-right: 15%;
+}
+img{
+	width: 100px;
+	height: 100px;
+	margin: 3px;
+}
+/*底部栏*/
+.bottom{
+	width: 100%;
+	height: 260px;
+	background-color: #2a3663;
+	float: left;
+	color: #d9c5a8;
+}
+.bottom div{
+	float: left;
+	padding-top: 30px;
+}
+.bottom p{
+	padding-top: 10px;
+}
+.extras{
+	padding-left: 250px;
+}
+#extras{
+	padding-top: 10px;
+	font-size: 30px;
+	font-weight: 600;
+}
+.contact{
+	padding-left: 300px;
+}
+#contact{
+	padding-top: 10px;
+	font-size: 30px;
+	font-weight: 600;
+}
+#thank{
+	width: 400px;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 50px;
+	text-shadow: 3px 2px 0 #c1402b;
+}

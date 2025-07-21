@@ -1,0 +1,106 @@
+*{
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+body{
+	background-color: #d9c5a8;
+	color: #d9c5a8;
+}
+table{
+	margin-top: 100px;
+}
+tr{
+	height: 50px;
+}
+a{
+	text-decoration: none;
+}
+#border{
+	width: 750px;
+	height: 500px;
+	border-radius: 25px;
+	border: solid 5px #c1402b;
+    margin-left: 400px;
+    margin-top: 100px;
+    background-color: #2A3663;
+    float: left;
+}
+#reg{
+	background-color: #d9c5a8;
+	border-radius: 10px;
+	box-shadow: 1px 1px #232;
+}
+#login{ 
+	background-color: #d9c5a8;
+	border-radius: 10px;
+	box-shadow: 1px 1px #232;
+}
+#username{
+	background-image: url(../img/user.JPG);
+	background-repeat: no-repeat;
+	background-position-x: 5px;
+	background-position-y: 8px;
+	height: 35px;
+	padding-left: 35px;
+	border: 1px solid #CCC;
+	outline: none;
+}
+#username:hover{
+	border: 1px solid #8A2BE2;
+}
+#password{
+	background-image: url(../img/password.JPG);
+	background-repeat: no-repeat;
+	background-position-x: 5px;
+	background-position-y: 8px;
+	height: 35px;
+	padding-left: 35px;
+	border: 1px solid #CCC;
+	outline: none;
+}
+#password:hover{
+	border: 1px solid #8A2BE2;
+}
+#repassword{
+	background-image: url(../img/password.JPG);
+	background-repeat: no-repeat;
+	background-position-x: 5px;
+	background-position-y: 8px;
+	height: 35px;
+	padding-left: 35px;
+	border: 1px solid #CCC;
+	outline: none;
+}
+
+#repassword:hover{
+	border: 1px solid #8A2BE2;
+}
+/*轮播*/
+#lunbo{
+  width: 240px;
+  height: 400px;
+  float: left;
+}
+.lunbo{
+  position: relative;
+  height: 400px;
+}
+.lunbo ul{
+  list-style-type:none ;
+}
+.lunbo ul li{
+  width: 240px;
+  height: 400px;
+  position: absolute;
+
+  transition: 1s;
+  opacity: 0;
+}
+.lunbo ul li img{
+  width: 240px;
+  height: 400px;
+  border-radius: 10%;
+  border: 15px solid #c1402b;
+}
+
+

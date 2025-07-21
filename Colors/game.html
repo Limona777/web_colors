@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Game</title>
+		<link rel="stylesheet" href="css/game.css">
+		<script type="text/javascript" src="js/login.js"></script>
+	</head>
+	<body onload="check();">
+		<div class="menu">
+			<h1 id="name">Hunt for Colors</h1>
+		<ul id="menu">
+			<li>
+				<a href="game.html">小游戏</a>
+			</li>
+			<li>
+				<a href="RecColor.html">配色推荐</a>
+			</li>
+			<li>
+				<a>色系介绍</a>
+				<ul id="system">
+					<li><a href="Memphis.html">孟菲斯色系</a></li>
+					<li><a href="Morandi.html">莫兰迪色系</a></li>
+					<li><a href="Macaroon.html">马卡龙色系</a></li>
+					<li><a href="Rococo.html">洛可可色系</a></li>
+					<li><a href="Mondrian.html">蒙德里安色系</a></li>
+					<li><a href="Matisse.html">马蒂斯色系</a></li>
+					<li><a href="Dunhuang.html">敦煌色系</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="index.html">首页</a>
+			</li>
+		</ul>
+		</div>
+		
+		<div class="bg">
+			<img src="img/index.jpg">
+		</div>
+		
+		<div class="blank">	</div>
+		
+		<div class="list" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<h2>尝试搭配以下颜色吧：</h2><hr/>
+			<img id="img2" src="img/a.jpg" ondragstart="drag(event)"/>
+			<img id="img3" src="img/b.jpg" ondragstart="drag(event)"/>
+			<img id="img4" src="img/c.jpg" ondragstart="drag(event)"/>
+			<img id="img5" src="img/d.jpg" ondragstart="drag(event)"/>
+			<img id="img6" src="img/e.jpg" ondragstart="drag(event)"/>
+			<img id="img7" src="img/f.jpg" ondragstart="drag(event)"/>
+			<img id="img8" src="img/g.jpg" ondragstart="drag(event)"/>
+			<img id="img9" src="img/h.jpg" ondragstart="drag(event)"/>
+			<img id="img10" src="img/i.jpg" ondragstart="drag(event)"/>
+			<img id="img11" src="img/j.jpg" ondragstart="drag(event)"/>
+			<img id="img12" src="img/k.jpg" ondragstart="drag(event)"/>
+			<img id="img13" src="img/l.jpg" ondragstart="drag(event)"/>
+			<img id="img14" src="img/m.jpg" ondragstart="drag(event)"/>
+			<img id="img15" src="img/n.jpg" ondragstart="drag(event)"/>
+		</div>
+		<div class="color" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<h2>放在一起看看效果：</h2><hr />
+		</div>
+		
+		<div class="blank">	</div>
+		<div class="blank">	</div>
+		<div class="bottom">
+			<div id="thank">
+				<h1>Thanks for visiting</h1>
+			</div>
+			
+			<div class="extras">
+				<p id="extras">EXTRAS</p>
+				<p>·图源：网络</p>
+				<p>·资料来源：百度</p>
+				<p>·配色参考：小红书，bilibili</p>
+			</div>
+			
+			<div class="contact">
+				<p id="contact">CONTACT</p>
+				<p>·制作者：梁清源</p>
+				<p>·学号：20232034052</p>
+			</div>
+		</div>
+		
+	</body>
+</html>
